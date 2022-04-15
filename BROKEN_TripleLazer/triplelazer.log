@@ -1,0 +1,335 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\Portal 2\portal2\materials
+Loading D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (8449.00 -5250.00 -160.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 -5120.0 -1856.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 -5024.0 -1856.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 -4512.0 -3821.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 -4512.0 -1069.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 -4096.0 -1856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10240.0 -4608.0 -1856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 -6656.0 -8.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 -6656.0 -2312.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...
+Brush 2713: areaportal brush doesn't touch two areas
+
+Brush 2748: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 172 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (330314 bytes)
+Static prop models/anim_wp/framework/squarebeam_off.mdl outside the map (8440.00, -5184.00, -160.00)
+Static prop models/anim_wp/framework/squarebeam_off.mdl outside the map (8449.00, -5250.00, -96.00)
+Static prop models/anim_wp/framework/squarebeam_off.mdl outside the map (8449.00, -5250.00, -160.00)
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5312.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7904.00 -5328.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5360.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7024.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7056.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8144.00 -5184.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8176.00 -5184.00 192.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1275 texinfos to 587
+Reduced 52 texdatas to 51 (1527 bytes to 1503)
+Writing D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.bsp
+
+nummapplanes:     (  7970 / 65536 )
+nummapbrushes:    (   880 /  8192 )
+nummapbrushsides: (  9125 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (    43 /  1024 )
+num_entities:     (   367 / 16384 )
+
+1 second elapsed
+
+
+
+16 threads
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.bsp
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\Portal 2\portal2\materials
+Loading D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (7978.38 -6042.87 1.00) leaked!
+Processing areas...
+Brush 2713: areaportal brush doesn't touch two areas
+
+Brush 2748: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 146 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (268490 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5312.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7904.00 -5328.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5360.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7024.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7056.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8144.00 -5184.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8176.00 -5184.00 192.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1102 texinfos to 444
+Reduced 51 texdatas to 50 (1494 bytes to 1470)
+Writing D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.bsp
+
+nummapplanes:     (  5668 / 65536 )
+nummapbrushes:    (   718 /  8192 )
+nummapbrushsides: (  6770 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (    43 /  1024 )
+num_entities:     (   366 / 16384 )
+
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.bsp
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\Portal 2\portal2\materials
+Loading D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_overlay_accessor (7168.00 -5440.00 216.00) leaked!
+Processing areas...
+Brush 2713: areaportal brush doesn't touch two areas
+
+Brush 2748: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 146 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (268490 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5312.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7904.00 -5328.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5360.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7024.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7056.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8144.00 -5184.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8176.00 -5184.00 192.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1102 texinfos to 444
+Reduced 51 texdatas to 50 (1494 bytes to 1470)
+Writing D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.bsp
+
+nummapplanes:     (  5668 / 65536 )
+nummapbrushes:    (   718 /  8192 )
+nummapbrushsides: (  6770 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (    43 /  1024 )
+num_entities:     (   365 / 16384 )
+
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.bsp
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\Portal 2\portal2\materials
+Loading D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (8449.00 -5250.00 288.00) leaked!
+Processing areas...
+Brush 2713: areaportal brush doesn't touch two areas
+
+Brush 2748: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 146 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (265190 bytes)
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5312.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5328.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7904.00 -5328.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7968.00 -5360.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 64.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5184.00 256.00
+Encountered obsolete static prop option to do its fade in screen space @ 7184.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7216.00 -5120.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7024.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 7056.00 -5376.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8144.00 -5184.00 192.00
+Encountered obsolete static prop option to do its fade in screen space @ 8176.00 -5184.00 192.00
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1067 texinfos to 435
+Reduced 47 texdatas to 46 (1312 bytes to 1288)
+Writing D:\SteamLibrary\steamapps\common\Portal 2\sdk_content\maps\TripleLazer.bsp
+
+nummapplanes:     (  5656 / 65536 )
+nummapbrushes:    (   711 /  8192 )
+nummapbrushsides: (  6728 / 65536 )
+num_map_overlays: (     1 /   512 )
+nummodels:        (    37 /  1024 )
+num_entities:     (   321 / 16384 )
+
+1 second elapsed
+
+
+
+16 threads
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.bsp
+reading d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\portal 2\sdk_content\maps\TripleLazer.prt
